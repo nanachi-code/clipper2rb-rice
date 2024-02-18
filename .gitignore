@@ -1,0 +1,4 @@
+*.o
+*.so
+node_modules/
+Makefile
