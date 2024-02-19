@@ -6,7 +6,7 @@
 - rice 4.x (Installed using RubyGems)
 
 # Build
-1. Create make file
+1. Create make file (one time only)
 ```bash
 ruby extconf.rb
 ```
