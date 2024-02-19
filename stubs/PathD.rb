@@ -1,37 +1,37 @@
 module Fujilogic
   module Clipper2
     include Rice_Internal
-    class Paths64 < CppVector
-      # @return [Path64]
+    class PathD < CppVector
+      # @return [PointD]
       def first
       end
 
-      # @return [Path64]
+      # @return [PointD]
       def last
       end
 
       # @param [Integer] index
-      # @return [Path64]
+      # @return [PointD]
       def [](index)
       end
 
       # @param [Integer] index
-      # @return [Path64]
+      # @return [PointD]
       def at(index)
       end
 
-      # @param [Path64] element
-      # @return [Path64]
+      # @param [PointD] element
+      # @return [PointD]
       def delete(element)
       end
 
-      # @param [Path64] element
+      # @param [PointD] element
       # @return [Boolean]
       def include?(element)
       end
 
-      # @param [Path64] element
-      # @return [Path64]
+      # @param [PointD] element
+      # @return [PointD]
       def index(element)
       end
 
@@ -40,31 +40,31 @@ module Fujilogic
       end
 
       # @param [Integer] index
-      # @return [Path64]
+      # @return [PointD]
       def delete_at(index)
       end
 
       # @param [Integer] index
-      # @param [Path64] element
+      # @param [PointD] element
       # @return [self]
       def insert(index, element)
       end
 
-      # @return [Path64]
+      # @return [PointD]
       def pop
       end
 
-      # @param [Path64] element
+      # @param [PointD] element
       # @return [self]
       def push(element)
       end
 
-      # @param [Path64] element
+      # @param [PointD] element
       # @return [self]
       def <<(element)
       end
 
-      # @param [Path64] element
+      # @param [PointD] element
       # @return [self]
       def append(element)
       end
@@ -74,12 +74,12 @@ module Fujilogic
       end
 
       # @param [Integer] index
-      # @param [Path64] element
-      # @return [Path64]
+      # @param [PointD] element
+      # @return [PointD]
       def []=(index, element)
       end
 
-      # @return [Array<Path64>]
+      # @return [Array<PointD>]
       def to_a
       end
     end
